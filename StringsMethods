@@ -1,0 +1,60 @@
+let a=null;
+console.log(typeof a); // This is JavaScript bug and didn't fixed 
+
+console.log("GARBAGE".slice(2).replace("B",""));
+
+let sports="basesball is entertaining and too much entertaining";
+let updatedSports=sports.replaceAll("entertaining" , "OK");
+console.log(updatedSports);
+console.log(sports);
+
+
+let park="yellow stone";
+console.log(typeof park);
+
+let index=park.indexOf("stone");
+console.log(index);
+
+let yell="Go away !!!";
+let indexx=yell.indexOf("!");
+console.log(indexx);
+
+
+const msg="Avinash";
+console.log(msg.replace("Avinash" ,"Vikarna"));
+console.log(msg);
+
+console.log(msg.replaceAll("a" ,"Vikarna"));
+console.log(msg);
+
+
+// let avi="  You are so grounded    ";
+// avi=avi.toUpperCase().trim().indexOf("O");
+// console.log(avi);
+
+// const msg="Avinash";
+// console.log(msg);
+// const msg2=msg.slice(2,4);
+// console.log(msg2);
+
+// console.log(msg.replace("Avinash" ,"Vikarna"));
+// console.log(msg);
+
+// const msg3="Vikarna";
+// console.log(msg3.replaceAll("a", "b"));
+// const msg4=msg3.replaceAll("a", "b");
+// console.log(msg3);
+// console.log(msg4);
+
+// msg.toUpperCase();
+// console.log(msg);
+// const msg1=msg.toUpperCase();
+// console.log(msg1);
+
+// let str="Piyush";
+// console.log(str);
+// str[0]="p";
+// console.log(str);
+
+// str="anusha";
+// console.log(str);
